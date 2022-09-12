@@ -1,0 +1,11 @@
+Problema 3
+R1 0 1 610
+R2 2 0 15
+R3 1 3 610
+R4 1 4 15
+L3 3 0 15m IC=1
+C4 0 4 15u IC=10
+V2 1 2 1830
+.TRAN 45us 850us 0us
+.PROBE
+.END

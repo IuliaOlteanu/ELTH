@@ -1,0 +1,57 @@
+
+**** 05/27/21 12:41:55 *********** Evaluation PSpice (Nov 1999) **************
+
+ Problema 3
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+R1 0 1 610
+R2 2 0 15
+R3 1 3 610
+R4 1 4 15
+L3 3 0 15m IC=1
+C4 0 4 15u IC=10
+V2 1 2 1830
+.TRAN 45us 850us 0us
+.PROBE
+.END
+
+**** 05/27/21 12:41:55 *********** Evaluation PSpice (Nov 1999) **************
+
+ Problema 3
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)  891.6000  (    2) -938.4000  (    3)  281.6000  (    4)   -9.8798  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V2          -6.256E+01
+
+    TOTAL POWER DISSIPATION   1.14E+05  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .13
+

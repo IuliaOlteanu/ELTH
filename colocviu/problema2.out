@@ -1,0 +1,77 @@
+
+**** 05/27/21 12:41:37 *********** Evaluation PSpice (Nov 1999) **************
+
+ Problema 2
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+R1 1 2 610k
+R2 3 0 10
+R3 3 4 122000000
+R4 5 0 15
+L1 4 5 10m
+C1 1 0 1/5u
+V1 2 3 AC 14.14 -45
+I1 5 2 AC 10 0
+.AC LIN 1 0.159 0.159
+.PRINT AC IR(V1) II(V1) IM(V1)
+.END
+
+**** 05/27/21 12:41:37 *********** Evaluation PSpice (Nov 1999) **************
+
+ Problema 2
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  (    3)    0.0000  (    4)    0.0000      
+
+(    5)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 05/27/21 12:41:37 *********** Evaluation PSpice (Nov 1999) **************
+
+ Problema 2
+
+
+ ****     AC ANALYSIS                      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+  FREQ        IR(V1)      II(V1)      IM(V1)      
+
+
+   1.590E-01   1.000E+01   1.639E-05   1.000E+01
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

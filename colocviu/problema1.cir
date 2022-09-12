@@ -1,0 +1,13 @@
+Problema 1
+R1 1 0 5
+R3 2 3 4
+R4 4 6 366
+R5 0 5 244
+V1 2 1 78
+I2 0 2 6
+Vcom 6 0 0
+F5 4 5 Vcom 0.5
+E3 4 3 2 0 122
+.DC V1 78 78 1
+.PRINT DC V(4,0) I(R4)
+.END
