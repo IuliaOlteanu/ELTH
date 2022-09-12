@@ -1,0 +1,12 @@
+Problema 1.2
+V1 5 0 AC 28.28 -90
+V2 1 0 AC 20 135
+L1 5 4 63.7m
+L2 3 0 31.85m
+C 4 3 318.47u
+R 3 1 10
+.AC LIN 1 50 50
+.PRINT AC I(L1) IP(L1) I(R) IP(R) I(L2) IP(L2) I(C) IP(C)
+.END
+
+

@@ -1,0 +1,9 @@
+Transfer maxim de putere
+VIN 1 0 AC 10
+RI 1 2 10
+LI 2 3 25.33M
+RL 3 4 10
+CL 4 0 1U
+.AC LIN 1 1K 1K
+.PRINT AC I(RL) IP(RL)
+.END

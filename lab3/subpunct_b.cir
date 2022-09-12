@@ -1,0 +1,13 @@
+subpunctul b
+R1 4 5 5
+R3 4 3 4
+R4 2 6 3
+R5 0 1 2
+V1 5 0 78
+Vcom 6 0 0
+I2 0 4 6
+E 2 3 4 0 0.5
+F5 2 1 Vcom 0.5
+.DC V1 78 78 1
+.PRINT DC I(R1) I(R3) I(R4) I(R5) V(I2)
+.END

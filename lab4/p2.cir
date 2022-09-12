@@ -1,0 +1,7 @@
+Circuit R-C serie
+Vin 1 0 AC 1
+R1 2 0 10
+C1 1 2 100u
+.AC LIN 1 318 318
+.PRINT AC I(R1) IP(R1) V(R1) V(C1)
+.END

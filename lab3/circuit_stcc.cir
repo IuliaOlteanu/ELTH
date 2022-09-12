@@ -1,0 +1,13 @@
+Circuit cu STCC
+R1 2 3 2
+R2 3 5 1
+R3 3 4 4
+R5 6 0 2
+V1 2 1 12
+V3 6 4 4
+I4 3 0 4
+Vcom 0 1 0
+H2 5 6 Vcom 2
+.DC I4 4 4 1
+.PRINT DC I(R1) I(R2) I(R3) I(R5) V(I4)
+.END

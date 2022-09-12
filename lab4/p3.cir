@@ -1,0 +1,10 @@
+Circuit R-L-C serie
+Iin 0 1 AC 1
+R 1 2 100
+L 2 3 25.33m
+C 3 0 1u
+RC 3 0 1meg
+.AC LIN 1 1000 1000
+.PRINT AC V(1) VP(1)
+.PRINT AC V(R) VP(R) V(L)  VP(L) V(C) VP(C)
+.END

@@ -1,0 +1,106 @@
+
+**** 04/15/21 12:25:58 *********** Evaluation PSpice (Nov 1999) **************
+
+ Circuit R-L-C serie
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+Iin 0 1 AC 1
+R 1 2 100
+L 2 3 25.33m
+C 3 0 1u
+RC 3 0 1meg
+.AC LIN 1 1000 1000
+.PRINT AC V(1) VP(1)
+.PRINT AC V(R) VP(R) V(L)  VP(L) V(C) VP(C)
+.END
+
+**** 04/15/21 12:25:58 *********** Evaluation PSpice (Nov 1999) **************
+
+ Circuit R-L-C serie
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 1.103E-30  (    2) 1.103E-30  (    3) 1.103E-30  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 04/15/21 12:25:58 *********** Evaluation PSpice (Nov 1999) **************
+
+ Circuit R-L-C serie
+
+
+ ****     AC ANALYSIS                      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+  FREQ        V(1)        VP(1)       
+
+
+   1.000E+03   1.000E+02  -1.063E-03
+
+**** 04/15/21 12:25:58 *********** Evaluation PSpice (Nov 1999) **************
+
+ Circuit R-L-C serie
+
+
+ ****     AC ANALYSIS                      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+  FREQ        V(R)        VP(R)       V(L)        VP(L)       V(C)        
+
+
+   1.000E+03   1.000E+02  -1.242E-19   1.592E+02   9.000E+01   1.592E+02
+
+**** 04/15/21 12:25:58 *********** Evaluation PSpice (Nov 1999) **************
+
+ Circuit R-L-C serie
+
+
+ ****     AC ANALYSIS                      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+  FREQ        VP(C)       
+
+
+   1.000E+03  -8.999E+01
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .08
+

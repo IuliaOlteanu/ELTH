@@ -1,0 +1,7 @@
+Circuit R-L serie
+Vin 1 0 AC 1
+R1 1 2 10
+L1 2 0 10m
+.AC LIN 1 100 100
+.PRINT AC I(R1) IP(R1) IR(R1) II(R1)
+.END

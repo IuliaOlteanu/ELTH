@@ -1,0 +1,70 @@
+
+**** 04/15/21 12:19:42 *********** Evaluation PSpice (Nov 1999) **************
+
+ Circuit R-C serie
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+Vin 1 0 AC 1
+R1 2 0 10
+C1 1 2 100u
+.AC LIN 1 318 318
+.PRINT AC I(R1) IP(R1) V(R1) V(C1)
+.END
+
+**** 04/15/21 12:19:42 *********** Evaluation PSpice (Nov 1999) **************
+
+ Circuit R-C serie
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 04/15/21 12:19:42 *********** Evaluation PSpice (Nov 1999) **************
+
+ Circuit R-C serie
+
+
+ ****     AC ANALYSIS                      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+  FREQ        I(R1)       IP(R1)      V(R1)       V(C1)       
+
+
+   3.180E+02   8.943E-02   2.659E+01   8.943E-01   4.476E-01
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+
