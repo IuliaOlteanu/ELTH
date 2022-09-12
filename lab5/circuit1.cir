@@ -1,0 +1,6 @@
+sursa PWL
+V 1 0 PWL(0,0 1ms,1V 1.5ms,-0.5V 2ms,-0.5V 3ms,2V 4ms,2V 4.01ms,0V)
+R 1 0 1
+.TRAN 40ns 4ms
+.probe
+.end

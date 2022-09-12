@@ -1,0 +1,10 @@
+comparatie reg tranzitoriu - reg permanent
+.param rad={2*3.141/360}
+E 1 0 value={sin(628*time)}
+R 1 2 10
+L 2 0 10mH
+G 3 0 value={0.084*sin(628*time-32.148*rad)}
+R1 3 0 10
+.tran 20ms 20ms
+.probe
+.end 

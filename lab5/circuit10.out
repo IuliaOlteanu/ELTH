@@ -1,0 +1,55 @@
+
+**** 04/29/21 13:03:08 *********** Evaluation PSpice (Nov 1999) **************
+
+ comparatie reg tranzitoriu - reg permanent
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+.param rad={2*3.141/360}
+E 1 0 value={sin(628*time)}
+R 1 2 10
+L 2 0 10mH
+G 3 0 value={0.084*sin(628*time-32.148*rad)}
+R1 3 0 10
+.tran 20ms 20ms
+.probe
+.end 
+
+**** 04/29/21 13:03:08 *********** Evaluation PSpice (Nov 1999) **************
+
+ comparatie reg tranzitoriu - reg permanent
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  (    3)     .4469  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

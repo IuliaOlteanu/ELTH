@@ -1,0 +1,6 @@
+sursa EXP
+V 1 0 EXP(2V 12V 2s 1s 7s 1s)
+R 1 0 1
+.tran 150ms 15s
+.probe
+.end

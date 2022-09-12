@@ -1,0 +1,56 @@
+
+**** 04/29/21 13:53:42 *********** Evaluation PSpice (Nov 1999) **************
+
+ Aflarea conditiilor initiale
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+R1 1 2 100
+R2 2 3 800
+L2 3 0 0.2 ic=50m
+C3 2 0 2.5u ic=0
+Vin 1 0 AC 1v pwl(0,0 0.001m,1 0.2m,1 0.2001m,0 0.5m,0 0.5001m,1 0.7m,1
++0.7001m,0 1m,0 1.001m,1 1.2m,1 1.2001m,0 1.5m,0)
+.tran 0.01m 1.5m
+.probe
+.end
+
+**** 04/29/21 13:53:42 *********** Evaluation PSpice (Nov 1999) **************
+
+ Aflarea conditiilor initiale
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)-100.0E-06  (    3)  -40.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vin         -1.000E-06
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .03
+

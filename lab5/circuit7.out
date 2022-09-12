@@ -1,0 +1,25 @@
+
+**** 04/29/21 12:55:12 *********** Evaluation PSpice (Nov 1999) **************
+
+ regim tranzitoriu
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+c 0 3 100u ic=90
+r2 3 0 10
+l 3 0 62.5m ic=0
+.tran 0.5ms 20ms uic
+.probe
+.end
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

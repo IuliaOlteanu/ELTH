@@ -1,0 +1,6 @@
+sursa PULSE
+V 1 0 PULSE(1V 5V 1s 0.1s 0.4s 1s 2s)
+R 1 0 1
+.tran 70ms 7s
+.probe
+.end

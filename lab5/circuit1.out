@@ -1,0 +1,52 @@
+
+**** 04/29/21 12:26:37 *********** Evaluation PSpice (Nov 1999) **************
+
+ sursa PWL
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+V 1 0 PWL(0,0 1ms,1V 1.5ms,-0.5V 2ms,-0.5V 3ms,2V 4ms,2V 4.01ms,0V)
+R 1 0 1
+.TRAN 40ns 4ms
+.probe
+.end
+
+**** 04/29/21 12:26:37 *********** Evaluation PSpice (Nov 1999) **************
+
+ sursa PWL
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V            0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            2.61
+

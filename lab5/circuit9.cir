@@ -1,0 +1,7 @@
+circuit R-L serie
+Vin 1 0 AC 1V
+R1 1 2 10
+L1 2 0 10mH
+.AC LIN 1 100Hz 100Hz
+.print ac I(R1) IP(R1)
+.end

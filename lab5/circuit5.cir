@@ -1,0 +1,6 @@
+sursa SFFM
+V 1 0 SFFM(3V 2V 10Hz 5 1Hz)
+R 1 0 1
+.tran 40ms 4s 0s 4ms
+.probe
+.end

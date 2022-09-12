@@ -1,0 +1,52 @@
+
+**** 04/29/21 12:35:32 *********** Evaluation PSpice (Nov 1999) **************
+
+ sursa PULSE
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+V 1 0 PULSE(1V 5V 1s 0.1s 0.4s 1s 2s)
+R 1 0 1
+.tran 70ms 7s
+.probe
+.end
+
+**** 04/29/21 12:35:32 *********** Evaluation PSpice (Nov 1999) **************
+
+ sursa PULSE
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    1.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V           -1.000E+00
+
+    TOTAL POWER DISSIPATION   1.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

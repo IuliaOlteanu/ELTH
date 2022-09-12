@@ -1,0 +1,55 @@
+
+**** 04/29/21 12:58:50 *********** Evaluation PSpice (Nov 1999) **************
+
+ fazori timp
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+V1 1 0 sin(0V 218.8V 50Hz 0 0 7.2)
+V2 2 0 sin(0V 218.8V 50Hz 0 0 -112.8)
+V3 3 0 sin(0V 218.8V 50Hz 0 0 127.2)
+.tran 40ms 40ms 0 0.2ms
+.probe
+.end
+
+**** 04/29/21 12:58:50 *********** Evaluation PSpice (Nov 1999) **************
+
+ fazori timp
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)   27.4230  (    2) -201.7000  (    3)  174.2800  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    V2           0.000E+00
+    V3           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

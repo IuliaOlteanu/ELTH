@@ -1,0 +1,10 @@
+Aflarea conditiilor initiale
+R1 1 2 100
+R2 2 3 800
+L2 3 0 0.2 ic=50m
+C3 2 0 2.5u ic=0
+Vin 1 0 AC 1v pwl(0,0 0.001m,1 0.2m,1 0.2001m,0 0.5m,0 0.5001m,1 0.7m,1
++0.7001m,0 1m,0 1.001m,1 1.2m,1 1.2001m,0 1.5m,0)
+.tran 0.01m 1.5m
+.probe
+.end

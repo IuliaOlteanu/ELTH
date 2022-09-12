@@ -1,0 +1,6 @@
+sursa SIN
+V 1 0 SIN(3V 3V 10Hz 0.5s 5 30)
+R 1 0 1
+.tran 3ms 1.5s
+.probe
+.end
